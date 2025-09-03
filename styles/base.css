@@ -1,0 +1,140 @@
+:root {
+    --heading-font: cabin, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*********** header ************/
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    align-items: end;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px #ddd;
+    column-gap: 10px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+}
+
+header span {
+    font-size: 1.7rem;
+}
+
+/*********** hamburger ************/
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 1.5rem;
+}
+
+/*********** navigation ************/
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: #3c614860;
+}
+
+/*********** h1 ************/
+
+h1{
+    padding: 10px;
+}
+
+/*********** main filter ************/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+    padding: 15px;
+}
+
+.container ul {
+    display: flex;
+}
+
+
+
+
+/*********** footer ************/
+
+footer p{
+    background-color: #3c614860;
+    padding: 1rem 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    padding-bottom: 10px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #ddd solid 2px;
+    border-radius: 33px;
+    width: 60px;
+    height: 60px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+
+}
+
+.social a:hover {
+    background-color: #3c614860;
+}

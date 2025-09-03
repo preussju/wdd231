@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" WDD 231 - Web Frontend Development - Julia Veiga | talking a little bit about me and my courses">
+    <meta name="author" content="Julia Veiga">
+    <title>WDD 231 - Web Frontend Development - Julia Veiga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/backpack.svg" alt="site logo" width="500" height="500">
+        <span>Julia Veiga</span>
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora qui, aperiam corporis culpa minus quam. Harum culpa aspernatur, doloremque distinctio dolor similique perspiciatis quis, aperiam facere magnam sapiente voluptas?</p>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <img class="profile" src="images/profile.webp" alt="Julia Veiga" width="170" height="180">
+        </section>
+        <section class="container">
+            <h2>Web Certificate Courses</h2>
+                <nav id="container" >
+                    <ul>
+                        <li><a href="#" id="all">All</a></li>
+                        <li><a href="#" id="cse">CSE</a></li>
+                        <li><a href="#" id="wdd">WDD</a></li>
+                    </ul>
+                </nav>
+                <p></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/preussju" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/julia-veiga-15883523a/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://www.instagram.com/preu.ju/" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
+        </div>
+        <p>©<span id="currentyear"></span> | Julia Veiga | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
