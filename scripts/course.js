@@ -92,6 +92,13 @@ function createCourseCards(filteredCourses) {
         content.textContent = course.subject + course.number
         card.append(content);
         document.querySelector(".container").appendChild(card);
+        
+        if (course.completed == false) {
+            card.style.backgroundColor = "#e59999";
+        }
+        else {
+            content.innerHTML += "  ✓";
+        }
     })
 
 }
@@ -133,3 +140,6 @@ wdd.addEventListener("click", () => {
         creditsElement.textContent = `${sum}`;
     });
 });
+
+
+
