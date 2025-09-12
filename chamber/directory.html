@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" WDD 231 - Web Frontend Development - Julia Veiga | Chamber of Commerce for Small Businesses in Porto Alegre">
+    <meta name="author" content="Julia Veiga">
+    <meta property="og:title" content="Chamber of Commerce - POA">
+    <meta property="og:description" content="Chamber of Commerce for Small Businesses in Porto Alegre">
+    <meta property="og:url" content="https://preussju.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://preussju.github.io/wdd231/chamber/images/og-image.png">
+    <title> POA's Chamber of commerce </title>
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+<body>
+    <header>
+            <img src="images/shop.svg" alt="site logo" width="500" height="500">
+            <span> Porto Alegre's Chamber of Commerce</span>
+            <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+     </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="block">
+            <section class="section-events">
+                <h2>Events</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi deserunt maiores sint numquam quod totam voluptatem eos dolorum libero nisi. ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officia. ipsum dolor sit amet consectetur, adipisicing elit. Totam, aut!</p>
+            </section>
+            <section class="section-weather">
+                <h2>Current Weather</h2>
+                <img class="weather" src="images/cloud-sun-fill.svg" alt="weather icon" width="170" height="180">
+                <div>
+                    <p>Temperature: 15°C</p>
+                    <p>Conditions: Sunny</p>
+                    <p>High: 20°C</p>
+                    <p>Low: 11°C</p>
+                    <p>Wind: 12 km/h</p>
+                    <p>Humidity: 78%</p>
+                    <p>Sunrise: 6:28 AM</p>
+                    <p>Sunset: 6:15 PM</p>
+                </div>
+            </section>
+            <section class="section-forecast">
+                <h2>Weather Forecast</h2>
+                <p>Today:11°C -20°C</p>
+                <p>Saturday:13°C- 23°C</p>
+                <p>Sunday:15°C - 25°C</p>
+            </section>
+        </div>
+        <div class="container"></div>
+    </main>
+    <footer>
+        <div>
+            <p>Porto Alegre's Chamber of Commerce</p>
+            <p>Avenida do Forte, 111</p>
+            <p>Vila, Porto Alegre - RS</p>
+            <p>+55 51 3333-3333</p>
+            <p>chamber@email.com.br</p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/preussju" target="_blank"><img src="images/github.svg" alt="github link" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/julia-veiga-15883523a/" target="_blank"><img src="images/linkedin.svg" alt="linkedin link" width="16" height="16"></a>
+            <a href="https://www.instagram.com/preu.ju/" target="_blank"><img src="images/instagram.svg" alt="instagram link" width="16" height="16"></a>
+        </div>
+        <div>
+            <p>WDD231 Chamber Project</p>
+            <p>Julia Veiga</p>
+            <p>©<span id="currentyear"></span> | Julia Veiga | Brazil</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
