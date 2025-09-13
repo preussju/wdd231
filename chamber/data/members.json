@@ -83,6 +83,20 @@
             "website": "https://www.artesanatodoguaiba.com.br",
             "imageurl": "https://images.pexels.com/photos/1108532/pexels-photo-1108532.jpeg",
             "membershiplevel": "member"
+        },
+        {
+            "name": "EduLab Criativo",
+            "address": {
+                "street": "Av. Bento Gonçalves, 4000",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "91540-000"
+            },
+            "phone": "+55 51 3100-2020",
+            "website": "https://www.edulabcriativo.com.br",
+            "imageurl": "https://images.pexels.com/photos/8471787/pexels-photo-8471787.jpeg",
+            "membershiplevel": "Innovation Circle"
         }
     ]
 }
