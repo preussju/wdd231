@@ -85,6 +85,92 @@ header span {
     background-color: var(--primary-color);
 }
 
+/*********** grid/list toggle ************/
+
+.members-menu {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+
+    button {
+        padding: 0.5rem 1rem;
+        font-weight: 700;
+        padding: 20px;
+    }
+}
+
+
+.grid {
+        #cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 25px;
+        place-items: center;}
+
+        section {
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding-bottom: 20px;
+            min-width: 350px;
+            background-color: #ddd;
+        }
+
+        #cards h3 {
+            padding: 20px;
+            text-align: center;
+            margin-top: 0;
+            background-color: var(--primary-color);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    
+        #cards p {
+            text-align: center;
+            padding-left: 10px;
+            line-height: 2px;
+            font-size: smaller;
+        }
+    
+        #cards img {
+            display: block;
+            width: 200px;
+            height: auto;
+            border: 2px solid #858383;
+            margin: 0 auto;
+        }
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+        border: 1px solid #ddd;
+
+        img {
+            display: none;
+        }
+
+        h3 {
+            font-size: 1rem;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 0.8rem;
+            padding: 10px;
+        }
+        &:nth-child(even) {
+            background-color: var(--primary-color);
+        }
+    }
+}
+
 /*********** main ************/
 
 h1 {
@@ -138,7 +224,7 @@ main p {
     padding: 4px 15px;
     text-align: justify;
 }
-
+/**
 #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -176,7 +262,7 @@ main p {
     height: auto;
     border: 2px solid #858383;
     margin: 0 auto;
-}
+} **/
 
 
 /*********** footer ************/

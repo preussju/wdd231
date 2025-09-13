@@ -4,7 +4,6 @@ async function loadMembers() {
     const data = await response.json();
     displayMembers(data.members);
 }
-
 const cards = document.querySelector("#cards");
 loadMembers();
 
@@ -38,4 +37,20 @@ const displayMembers = (members) => {
         cards.appendChild(card); //"cards" is the id in the html
 
     });
+  
+}
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); 
+function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
 }
