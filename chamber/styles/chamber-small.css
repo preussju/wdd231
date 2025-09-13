@@ -5,7 +5,7 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 /*********** header ************/
@@ -30,6 +30,7 @@ header img {
 header span {
     font-size: 1.7rem;
     text-align: center;
+    font-weight: bold;
 }
 
 /*********** hamburger ************/
@@ -87,7 +88,14 @@ header span {
 /*********** main ************/
 
 h1 {
-    padding: 10px;
+    padding: 20px;
+}
+
+#hero {
+    width: 100%;
+    height: auto;
+    border: 2px solid #858383;
+    margin-bottom: 20px;
 }
 
 main {
@@ -113,7 +121,7 @@ main {
     font-size: larger;
 }
 
-.weather{
+.section-weather img{
     height: 100px;
     width: auto;
     padding: 10px;
@@ -136,7 +144,6 @@ main p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 25px;
     place-items: center;
-    padding: 15px;
 }
 
 #cards section{
@@ -144,6 +151,7 @@ main p {
     border-radius: 20px;
     padding-bottom: 20px;
     min-width: 350px;
+    background-color: #ddd;
 }
 
 #cards h3{
@@ -182,6 +190,7 @@ footer{
 footer p {
     margin: 0;
     text-align: left;
+    font-weight: bold;
 }
 
 .social {
