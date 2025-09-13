@@ -10,11 +10,13 @@
     <meta property="og:url" content="https://preussju.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://preussju.github.io/wdd231/chamber/images/og-image.png">
     <title> POA's Chamber of commerce </title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber-small.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <link rel="icon" href="images/favicon.ico">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/members.js" defer></script>
 </head>
 <body>
     <header>
@@ -58,7 +60,7 @@
                 <p>Sunday:15°C - 25°C</p>
             </section>
         </div>
-        <div class="container"></div>
+        <div id="cards"></div>
     </main>
     <footer>
         <div>
@@ -76,7 +78,7 @@
         <div>
             <p>WDD231 Chamber Project</p>
             <p>Julia Veiga</p>
-            <p>©<span id="currentyear"></span> | Julia Veiga | Brazil</p>
+            <p>©<span id="currentyear"></span> | Julia Veiga | POA's Chamber of commerce</p>
             <p id="lastModified"></p>
         </div>
     </footer>

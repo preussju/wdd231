@@ -131,6 +131,46 @@ main p {
     text-align: justify;
 }
 
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+    padding: 15px;
+}
+
+#cards section{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    min-width: 350px;
+}
+
+#cards h3{
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+    background-color: var(--primary-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#cards p {
+    text-align: center;
+    padding-left: 10px;
+    line-height: 2px;
+    font-size: smaller;
+}
+
+#cards img{
+    display: block;
+    width: 200px;
+    height: auto;
+    border: 2px solid #858383;
+    margin: 0 auto;
+}
+
+
 /*********** footer ************/
 
 footer{
