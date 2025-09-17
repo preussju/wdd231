@@ -5,6 +5,7 @@ async function loadMembers() {
     displayMembers(data.members);
 }
 const cards = document.querySelector("#cards");
+const spotlight = document.querySelector("#spotlight");
 loadMembers();
 
 const displayMembers = (members) => {
@@ -33,12 +34,12 @@ const displayMembers = (members) => {
         card.appendChild(phone);
         card.appendChild(url);
 
-
         cards.appendChild(card); //"cards" is the id in the html
-
     });
   
 }
+
+
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
@@ -54,3 +55,5 @@ function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
+
+

@@ -101,7 +101,7 @@ header span {
 }
 
 
-.grid #cards {
+.grid #cards, #spotlight {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 25px;
@@ -140,6 +140,11 @@ header span {
     margin: 0 auto;
 }
 
+/*index.html*/
+#spotlight h4 {
+    text-align: center;
+}
+/*index.html*/
 
 .list {
     display: flex;

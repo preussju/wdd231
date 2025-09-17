@@ -26,7 +26,7 @@
             "phone": "+55 51 3345-7788",
             "website": "https://www.verdesul.com.br",
             "imageurl": "https://images.pexels.com/photos/26076138/pexels-photo-26076138.jpeg",
-            "membershiplevel": "Gold"
+            "membershiplevel": "gold"
         },
         {
             "name": "Confeitaria Alegre Doces",
@@ -96,7 +96,7 @@
             "phone": "+55 51 3100-2020",
             "website": "https://www.edulabcriativo.com.br",
             "imageurl": "https://images.pexels.com/photos/8471787/pexels-photo-8471787.jpeg",
-            "membershiplevel": "Innovation Circle"
+            "membershiplevel": "gold"
         }
     ]
 }
