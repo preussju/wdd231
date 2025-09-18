@@ -31,7 +31,6 @@ async function apiFetch() {
 }
 
 apiFetch();
- 
 
 function displayResults(data) {
 
@@ -41,10 +40,13 @@ function displayResults(data) {
     wind.innerHTML = `${data.wind.speed} km/h`;
     humidity.innerHTML = `${data.main.humidity} %`;
 
-    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-    weatherIcon.setAttribute('SRC', iconsrc);
-    weatherIcon.setAttribute('alt', `${data.name} weather icon`);
+    let imageurl = document.createElement("img");
 
+    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    imageurl.setAttribute('src', iconsrc);
+    imageurl.setAttribute('alt', `${data.name} weather icon`);
+
+    weatherIcon.appendChild(imageurl);
     let desc = data.weather[0].description;
     captionDesc.textContent = `${desc}`;
 }
