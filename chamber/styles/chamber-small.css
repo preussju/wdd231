@@ -144,7 +144,33 @@ header span {
 #spotlight h4 {
     text-align: center;
 }
-/*index.html*/
+
+#spotlight p{
+    font-weight: bold;
+}
+
+#call {
+    position: absolute;
+    background-color:#61433cf6;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    padding: 10px;
+}
+
+
+#weather-icon {
+    float: right;
+}
+
+#figcaption{
+    padding: 20px;
+}
+
+/* end index.html*/
 
 .list {
     display: flex;
@@ -201,12 +227,13 @@ main {
 .section-forecast {
     background-color: #ddd;
     margin-bottom: 10px;
-    min-width: 250px;
+    min-width: 300px;
     padding-bottom: 10px;
 }
 
-.section-weather p{
+.section-weather p {
     line-height: 1px;
+    text-align: start;
 }
 
 .section-forecast p{

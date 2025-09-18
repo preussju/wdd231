@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,8 +22,8 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
-
 <body>
     <header>
         <img src="images/shop.svg" alt="site logo" width="500" height="500">
@@ -41,7 +40,8 @@
     </nav>
     <main>
         <h1>Home</h1>
-        <img id="hero" src="images/chamber.webp" alt="chamber image" width="1900" height="1200">
+        <p id="call">Check our Network!</p>
+        <img id="hero" src="images/chamber.png" alt="chamber image" width="1900" height="1200">
         <div class="block">
             <section class="section-events">
                 <h2>Events</h2>
@@ -51,23 +51,21 @@
             </section>
             <section class="section-weather">
                 <h2>Current Weather</h2>
-                <img src="images/cloud-sun-fill.svg" alt="weather icon" width="170" height="180">
+                <img id="weather-icon" src="" alt="">
+                <span id="figcaption"></span>
                 <div>
-                    <p>Temperature: 15°C</p>
-                    <p>Conditions: Sunny</p>
-                    <p>High: 20°C</p>
-                    <p>Low: 11°C</p>
-                    <p>Wind: 12 km/h</p>
-                    <p>Humidity: 78%</p>
-                    <p>Sunrise: 6:28 AM</p>
-                    <p>Sunset: 6:15 PM</p>
+                    <p>Temperature: <span id="current-temp"></span></p>
+                    <p>Low: <span id="low"></span></p>
+                    <p>High: <span id="high"></span></p>
+                    <p>Wind: <span id="wind"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
                 </div>
             </section>
             <section class="section-forecast">
                 <h2>Weather Forecast</h2>
-                <p>Today:11°C -20°C</p>
-                <p>Saturday:13°C- 23°C</p>
-                <p>Sunday:15°C - 25°C</p>
+                <p>Today: <span id="today"></span></p>
+                <p>Tomorrow: <span id="tomorrow"></span></p>
+                <p>After: <span id="after"></span></p>
             </section>
         </div>
         <h2>Spotlights</h2>
