@@ -86,21 +86,27 @@ createCourseCards(courses);
 function createCourseCards(filteredCourses) {
     document.querySelector(".container").innerHTML = "";
     filteredCourses.forEach(course => {
+
         let card = document.createElement("section")
         let content = document.createElement("p")
 
         content.textContent = course.subject + course.number
         card.append(content);
         document.querySelector(".container").appendChild(card);
-        
+
         if (course.completed == false) {
             card.style.backgroundColor = "#e59999";
+            
         }
         else {
             content.innerHTML += "  ✓";
         }
-    })
 
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+    })
+    
 }
 
 const all = document.querySelector("#all");
@@ -141,5 +147,26 @@ wdd.addEventListener("click", () => {
     });
 });
 
+
+// dialog
+
+const courseDetails = document.getElementById('course-details');
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML =
+    `<button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology}</p>`;
+    courseDetails.showModal();
+  
+    closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
 
 
