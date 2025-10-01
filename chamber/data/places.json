@@ -5,49 +5,49 @@
             "address": "Av. Ipiranga, 6681 - Partenon, Porto Alegre - RS, 90619-900",
             "cost": "R$ 30",
             "description": "Interactive science museum with hands-on exhibits, including a zero-gravity room and robotics displays.",
-            "photo": "../images/chamber.webp"
+            "photo": "../images/puc.webp"
         },
         {
             "name": "Theatro São Pedro",
             "address": "Praça Marechal Deodoro, s/n - Centro Histórico, Porto Alegre - RS, 90010-300",
             "cost": "R$ 40–100 (depending on show)",
             "description": "Historic Italian-style theater offering concerts, plays, and cultural performances in a stunning architectural setting.",
-            "photo": "../images/chamber.webp"    },
+            "photo": "../images/teatro-sp.webp"    },
         {
             "name": "Gasômetro (Usina do Gasômetro)",
             "address": "Av. João Goulart, 551 - Centro Histórico, Porto Alegre - RS, 90010-120",
             "cost": "Free",
             "description": "Former power plant turned cultural center with exhibitions, events, and sunset views over Guaíba Lake.",
-            "photo": "../images/chamber.webp"    },
+            "photo": "../images/gasometro.webp"    },
         {
             "name": "Parque Moinhos de Vento (Parcão)",
             "address": "Av. Goethe, s/n - Moinhos de Vento, Porto Alegre - RS, 90560-000",
             "cost": "Free",
             "description": "Popular urban park with jogging paths, playgrounds, and a replica of a Dutch windmill.",
-            "photo": "../images/chamber.webp"    },
+            "photo": "../images/parcao.webp"    },
         {
             "name": "Mercado Público de Porto Alegre",
             "address": "Praça XV de Novembro, 402 - Centro Histórico, Porto Alegre - RS, 90020-090",
             "cost": "Free entry; food and goods vary",
             "description": "Historic public market with over 100 shops offering local produce, crafts, and traditional cuisine.",
-            "photo": "../images/chamber.webp"    },
+            "photo": "../images/mercado.webp"    },
         {
             "name": "Fundação Ibere Camargo",
             "address": "Av. Padre Cacique, 2000 - Praia de Belas, Porto Alegre - RS, 90810-240",
             "cost": "Free",
             "description": "Modern art museum in a striking building by architect Álvaro Siza, featuring works by Iberê Camargo.",
-            "photo": "../images/chamber.webp"    },
+            "photo": "../images/ibere.webp"    },
         {
             "name": "Jardim Botânico de Porto Alegre",
             "address": "Rua Salvador França, 1427 - Jardim Botânico, Porto Alegre - RS, 90690-000",
             "cost": "R$ 10",
             "description": "Botanical garden with native and exotic plants, walking trails, and educational exhibits.",
-            "photo": "../images/chamber.webp"    },
+            "photo": "../images/jardim-botanico.webp"    },
         {
             "name": "Barco Cisne Branco (White Swan Boat)",
             "address": "Cais do Porto - Centro Histórico, Porto Alegre - RS",
             "cost": "R$ 50",
             "description": "Scenic boat tour on Guaíba Lake offering panoramic views of the city and sunset cruises.",
-            "photo": "../images/chamber.webp"    }
+            "photo": "../images/cisne-branco.webp"    }
     ]
 }

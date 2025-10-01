@@ -3,10 +3,20 @@
     #pCards div {
 
         grid-template-areas:
-            "photo name"
-            "photo description"
-            "photo address"
-            "photo button";
+            "photo  name"
+            "photo  description"
+            "photo  address"
+            "photo  button";
     }
 
+
+    #pCards div img {
+        width: 200px;
+
+    }
+
+    #pCards div img:hover {
+         box-shadow: 0 0 50px #333;
+    }
+    
 }

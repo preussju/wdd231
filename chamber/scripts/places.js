@@ -9,8 +9,8 @@ loadPlaces()
 
 const displayPlaces = (places) => {
     places.forEach((place) => {
+        
         let card = document.createElement("div");
-
         let name = document.createElement("h2");
         let address = document.createElement("address");
         let description = document.createElement("p");
@@ -25,8 +25,8 @@ const displayPlaces = (places) => {
         image.setAttribute("src", place.photo);
         image.setAttribute("alt", `image of ${place.photo} `);
         image.setAttribute("loading", "lazy");
-        image.setAttribute("height", 320)
-        image.setAttribute("width", 640)
+        image.setAttribute("height", 300)
+        image.setAttribute("width", 200)
 
         card.appendChild(image);
         card.appendChild(name);
