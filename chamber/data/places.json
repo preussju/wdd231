@@ -5,14 +5,14 @@
             "address": "Av. Ipiranga, 6681 - Partenon, Porto Alegre - RS, 90619-900",
             "cost": "R$ 30",
             "description": "Interactive science museum with hands-on exhibits, including a zero-gravity room and robotics displays.",
-            "photo": "../images/puc.webp"
+            "photo": "images/puc.webp"
         },
         {
             "name": "Theatro São Pedro",
             "address": "Praça Marechal Deodoro, s/n - Centro Histórico, Porto Alegre - RS, 90010-300",
             "cost": "R$ 40–100 (depending on show)",
             "description": "Historic Italian-style theater offering concerts, plays, and cultural performances in a stunning architectural setting.",
-            "photo": "../images/teatro-sp.webp"    },
+            "photo": "images/teatro-sp.webp"    },
         {
             "name": "Gasômetro (Usina do Gasômetro)",
             "address": "Av. João Goulart, 551 - Centro Histórico, Porto Alegre - RS, 90010-120",
