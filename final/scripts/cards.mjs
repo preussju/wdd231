@@ -124,37 +124,37 @@ allMovies2.addEventListener("click", () => {
 
 // Max
 max.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where_to_watch === "Max"));
+    createMovieCard(movies.filter(movie => movie.where_to_watch.includes("Max")));
 });
 
 // Disney+
 disney.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where_to_watch === "Disney+"));
+    createMovieCard(movies.filter(movie => movie.where_to_watch.includes("Disney+")));
 });
 
 // Netflix
 netflix.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where_to_watch === "Netflix"));
+    createMovieCard(movies.filter(movie => movie.where_to_watch.includes("Netflix")));
 });
 
 // Paramount+
 paramount.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where_to_watch === "Paramount+"));
+    createMovieCard(movies.filter(movie => movie.where_to_watch.includes("Paramount+")));
 });
 
 // Amazon Prime Video
 amazonPrimeVideo.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where_to_watch === "Amazon Prime Video"));
+    createMovieCard(movies.filter(movie => movie.where_to_watch.includes("Amazon Prime Video")));
 });
 
 // Apple TV+
 appleTv.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where_to_watch === "Apple TV+"));
+    createMovieCard(movies.filter(movie => movie.where_to_watch.includes("Apple TV+")));
 });
 
 // Peacock
 peacock.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where_to_watch === "Peacock"));
+    createMovieCard(movies.filter(movie => movie.where_to_watch.includes("Peacock")));
 });
 
 
