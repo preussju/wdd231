@@ -11,7 +11,7 @@ function createMovieCard(movies) {
         card.classList.add('movie-card');
 
         card.innerHTML = `
-        <img src="${movie.image}" alt="${movie.name}">
+        <img src="${movie.image}" alt="${movie.name}" loading="lazy" height="250" width="200">
         <h3>${movie.name}</h3>
         <button> about </button>
         `;
@@ -29,18 +29,26 @@ const link2 = document.querySelector('#menu2');
 const genres = document.querySelector('.genres');
 const where = document.querySelector('.where');
 
+//open the filters,
+// closes the other if there is already one opened. 
 
 link.addEventListener('click', () => {
     genres.classList.toggle('open');
+    where.classList.remove('open');
     link.classList.toggle('open');
+    link2.classList.remove('open');
 });
 
 link2.addEventListener('click', () => {
     where.classList.toggle('open');
+    genres.classList.remove('open');
     link2.classList.toggle('open');
+    link.classList.remove('open');
 });
 
+//all filters
 
+//genres 
 const allmovies = document.querySelector("#all");
 const sciFi = document.querySelector("#sci-fi");
 const adventure = document.querySelector("#adventure");
@@ -54,7 +62,7 @@ const drama = document.querySelector("#drama");
 const musical = document.querySelector("#musical");
 const history = document.querySelector("#history");
 const romance = document.querySelector("#romance");
-
+//where to watch
 const max = document.querySelector("#max");
 const disney = document.querySelector("#disney");
 const netflix = document.querySelector("#netflix");

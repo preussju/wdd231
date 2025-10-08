@@ -4,7 +4,7 @@ export const movies = [
         release_date: "March 1 2024",
         genre: "Sci-Fi, Adventure",
         age_rating: "+14",
-        image: "",
+        image: "./images/dune2.webp",
         where_to_watch: "Max",
         description: "The epic saga continues as Paul Atreides fights to protect his people and reclaim the desert planet Arrakis from dangerous enemies."
     },
@@ -13,7 +13,7 @@ export const movies = [
         release_date: "June 14 2024",
         genre: "Animation, Family",
         age_rating: "All Ages",
-        image: "",
+        image: "./images/insideout.webp",
         where_to_watch: "Disney+",
         description: "Riley's emotions return in a heartfelt adventure as they navigate the challenges of growing up and discovering new feelings."
     },
@@ -22,7 +22,7 @@ export const movies = [
         release_date: "July 21 2023",
         genre: "Comedy, Fantasy",
         age_rating: "+10",
-        image: "",
+        image: "./images/barbie.webp",
         where_to_watch: "Max",
         description: "Barbie embarks on a fun-filled journey of self-discovery, mixing comedy and magical moments along the way."
     },
@@ -31,7 +31,7 @@ export const movies = [
         release_date: "June 2 2023",
         genre: "Animation, Action",
         age_rating: "+10",
-        image: "",
+        image: "./images/spider-man.webp",
         where_to_watch: "Netflix",
         description: "Miles Morales swings back into action, encountering multiple Spider-People across different universes in an animated adventure."
     },
@@ -40,7 +40,7 @@ export const movies = [
         release_date: "May 5 2023",
         genre: "Action, Adventure",
         age_rating: "+12",
-        image: "",
+        image: "./images/guardians.webp",
         where_to_watch: "Disney+",
         description: "The Guardians face new threats in space while exploring their bonds and confronting past secrets."
     },

@@ -16,4 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-
+const timestamp = document.getElementById('formTimestamp')
+timestamp.value = document.lastModified;

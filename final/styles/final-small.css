@@ -12,6 +12,7 @@
     margin: 0 auto;
     font-family: var(--body-font);
     padding: 5px;
+    color: var(--text-color);
 }
 
 body {
@@ -38,7 +39,6 @@ header img {
 header span {
     font-size: 1.7rem;
     font-weight: bold;
-    color: var(--text-color);    
     padding: 0;
     font-family: var(--header-font);
     font-weight: 800;
@@ -86,7 +86,6 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: var(--text-color);
     font-weight: bolder;
     text-decoration: none;
     border-bottom: solid 1px #ddd;
@@ -105,7 +104,6 @@ header span {
 
 main h1, main h2, main h3 {
     font-family: var(--header-font);
-    color: var(--text-color);
 }
 
 main h1{
@@ -131,7 +129,6 @@ main h2, main h3{
     display: flex;
     gap: 90px;
     text-align: center;
-    color: var(--text-color);
     margin: 10px;
 }
 
@@ -192,7 +189,6 @@ main h2, main h3{
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 30px;
     list-style: none;
-    color: var(--text-color);
 }
 
 .genres a, .where a {
@@ -221,10 +217,13 @@ main h2, main h3{
     display: block;
 }
 
+.close a {
+    display: none;
+}
+
 #cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    color: var(--text-color);
 }
 
 #cards div{
@@ -232,16 +231,27 @@ main h2, main h3{
     width: 250px;
     height: 450px;
     margin: 10px;
+    border-radius: 20px;
+}
+
+#cards img{
+    border-radius: 20px;
+    margin-left:8%;
+    margin-top: 10px;
+}
+
+#cards h3{
+    padding: 0;
+    text-align: center;
 }
 
 #cards button{
     grid-area: button;
     text-align: center;
     background-color: var(--primary-color);
-    color: var(--text-color);
     max-width: 200px;
     padding: 15px;
-    margin: auto 35%;
+    margin: 20px 35%;
     border-radius: 20px;
 }
 
@@ -254,7 +264,6 @@ dialog {
     width: 90%;
     max-width: 600px;
     text-align: center;
-    color: var(--text-color);
 }
 
 ::backdrop {
@@ -267,6 +276,80 @@ dialog button {
     right: 23px;
     border: 1px solid rgb(0 0 0 / 10%);
     background-color: var(--text-color);
+}
+
+/* Form styles */
+
+form{
+    padding-top: 0;
+    max-width: 400px;
+    background-color: var(--background-color);
+}
+
+form label {
+    display: block;
+    font-size: 1.3rem;
+    padding-top: 10px;
+}
+
+form h3, form h2{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1.5rem 0 .2rem 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+form p{
+    text-align: center;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+textarea,
+select {
+    display: block;
+    margin: .1rem 0 1rem 0;
+    border: 1px solid #999;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-color: #555;
+    color: #3D405B;
+    width: 250px;
+}
+
+
+input:required {
+    border-left-color: var(--accent-color);
+}
+
+input:focus {
+    border-left-color: var(--primary-color);
+    outline: none;
+}
+
+input:required:valid {
+    border-left-color: var(--secondary-color);
+}
+
+
+input[type=submit] {
+    border: none;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    padding: .75rem 1.5rem;
+    margin: 2rem .5rem;
+    font-size: 1.2rem;
+}
+
+/* form results */
+
+#results{
+    display: block;
+    background-color: var(--background-color);
+    
 }
 
 /*********** footer ************/
@@ -282,11 +365,6 @@ footer p {
     text-align: left;
     font-weight: bold;
     background-color: var(--background-color);
-    color: var(--text-color);
-}
-
-footer span{
-    color: var(--text-color);
 }
 
 .social {

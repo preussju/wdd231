@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=" WDD 231 - Julia Veiga | Final Project - NextReel - What's Your Next Watch?">
+    <meta name="description" content=" WDD 231 - Julia Veiga | Final Project - NextReel - Review your favorites or most hated movies!">
     <meta name="author" content="Julia Veiga">
-    <title> NextReel </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <!-- meta tags for facebook -->
+    <meta property="og:title" content="Catalog - Julia Veiga">
+    <meta property="og:description" content=" WDD 231 - Web Frontend Development - Julia Veiga | An online movie catalog to help you find your next watch!">
+    <meta property="og:url" content="https://preussju.github.io/wdd231/final/reviews.html">
+    <meta property="og:image" content="https://preussju.github.io/wdd231/final/images/guardians.webp">
+    <title> NextReel - Reviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"  rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/final-small.css">
     <link rel="stylesheet" href="styles/final-large.css">
@@ -20,7 +22,6 @@
     <script src="scripts/date.js" defer></script>
     <script src="scripts/next-movies.js" defer></script>
 </head>
-
 <body>
     <nav id="nav-bar" class="navigation">
         <ul>
@@ -36,7 +37,28 @@
     </header>
     <main>
         <h1>Review your favorites⭐ or most hated🍅!</h1>
-        <h2>We want your opinion!</h2>
+    <div >
+        <form method="get" action="thanks.html" class="designOne">
+            <h2>We want your opinion!</h2>
+            <label>Nickname* <input type="text" name="first" required title="No need for real name"></label>
+            <label>Movie Title* <input type="text" name="movie" required title="The movie you are reviewing"></label>
+            <label>Year of Release* <input type="number" name="year" required min="1888" max="2024" title="The year the movie was released"></label>
+            <h3>Share your thoughts</h3>
+            <label>Tell us about the movie, no spoilers!<textarea name="description" rows="4" placeholder="write here..."></textarea></label>
+            <h3>Rate the movie</h3>
+            <label><input type="radio" name="rating" value="5" checked title="5 stars"> ⭐⭐⭐⭐⭐</label>
+            <label><input type="radio" name="rating" value="4" title="4 stars"> ⭐⭐⭐⭐</label>
+            <label><input type="radio" name="rating" value="3" title="3 stars"> ⭐⭐⭐</label>
+            <label><input type="radio" name="rating" value="2" title="2 stars"> ⭐⭐</label>
+            <label><input type="radio" name="rating" value="1" title="1 star"> ⭐</label>
+            <label><input type="radio" name="rating" value="0" title="1 tomato">🍅</label>
+            <h3>Subscribe (optional)</h3>
+            <p>receive movies updates through your email!</p>
+            <label>Email <input type="email" name="email" placeholder="john89@gmail.com" title="Your Email" autocomplete="email"></label>
+            <input type="hidden" id="formTimestamp" name="formTimestamp" value="">
+            <input type="submit" value="Share Review">
+        </form>
+    </div>
     </main>
     <footer>
         <div>
