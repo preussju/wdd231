@@ -1,0 +1,60 @@
+@media only screen and (min-width: 38rem) {
+
+
+    header,
+    main,
+    nav footer,
+    .navigation {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    header span{
+        font-size: 4.5rem;
+        padding-left: 20px;
+    }
+
+
+    header img {
+        width: 40px;
+        padding-top: 20px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        border-bottom: solid 1px #eee;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .navigation a {
+        border: none;
+        padding: 2rem 10px;
+    }
+
+    .block {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

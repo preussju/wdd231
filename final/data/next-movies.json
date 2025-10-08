@@ -1,0 +1,39 @@
+{
+    "next": [
+        {
+            "name": "Good Fortune",
+            "release_date_us": "October 17, 2025",
+            "image": "./images/good-fortune.webp"
+        },
+        {
+            "name": "The Black Phone 2",
+            "release_date_us": "October 17, 2025",
+            "image": "./images/black-phone2.webp"
+        },
+        {
+            "name": "Bugonia",
+            "release_date_us": "October 24, 2025",
+            "image": "./images/bugonia.webp"
+        },
+        {
+            "name": "Predator: Badlands",
+            "release_date_us": "November 7, 2025",
+            "image": "./images/predator.webp"
+        },
+        {
+            "name": "Wicked: For Good",
+            "release_date_us": "November 20, 2025",
+            "image": "./images/wicked.webp"
+        },
+        {
+            "name": "Zootopia 2",
+            "release_date_us": "November 26, 2025",
+            "image": "./images/zootopia.webp"
+        },
+        {
+            "name": "Avatar: Fire & Ash",
+            "release_date_us": "December 19, 2025",
+            "image": "./images/avatar.webp"
+        }
+    ]
+}

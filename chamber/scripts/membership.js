@@ -50,8 +50,6 @@ function createMembershipCards(filteredMemberships) {
 
 
 // dialog
-
-
 const membershipDetails = document.getElementById('membership-details');
 
 function displayMembershipDetails(membership) {
