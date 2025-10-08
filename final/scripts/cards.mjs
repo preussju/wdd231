@@ -117,11 +117,45 @@ romance.addEventListener("click", () => {
     createMovieCard(movies.filter(movie => movie.genre.includes("Romance")));
 });
 
-// Max
-max.addEventListener("click", () => {
-    createMovieCard(movies.filter(movie => movie.where.includes("Max")));
+// All Movies
+allMovies2.addEventListener("click", () => {
+    createMovieCard(movies);
 });
 
+// Max
+max.addEventListener("click", () => {
+    createMovieCard(movies.filter(movie => movie.where_to_watch === "Max"));
+});
+
+// Disney+
+disney.addEventListener("click", () => {
+    createMovieCard(movies.filter(movie => movie.where_to_watch === "Disney+"));
+});
+
+// Netflix
+netflix.addEventListener("click", () => {
+    createMovieCard(movies.filter(movie => movie.where_to_watch === "Netflix"));
+});
+
+// Paramount+
+paramount.addEventListener("click", () => {
+    createMovieCard(movies.filter(movie => movie.where_to_watch === "Paramount+"));
+});
+
+// Amazon Prime Video
+amazonPrimeVideo.addEventListener("click", () => {
+    createMovieCard(movies.filter(movie => movie.where_to_watch === "Amazon Prime Video"));
+});
+
+// Apple TV+
+appleTv.addEventListener("click", () => {
+    createMovieCard(movies.filter(movie => movie.where_to_watch === "Apple TV+"));
+});
+
+// Peacock
+peacock.addEventListener("click", () => {
+    createMovieCard(movies.filter(movie => movie.where_to_watch === "Peacock"));
+});
 
 
 // dialog

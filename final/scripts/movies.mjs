@@ -5,7 +5,7 @@ export const movies = [
         genre: "Sci-Fi, Adventure",
         age_rating: "+14",
         image: "",
-        where: "Max",
+        where_to_watch: "Max",
         description: "The epic saga continues as Paul Atreides fights to protect his people and reclaim the desert planet Arrakis from dangerous enemies."
     },
     {
