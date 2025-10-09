@@ -49,7 +49,7 @@ export const movies = [
         release_date: "March 4 2022",
         genre: "Action, Crime",
         age_rating: "+14",
-        image: "",
+        image: "./ images / guardians.webp",
         where_to_watch: "Max",
         description: "Batman investigates a series of brutal crimes in Gotham City while uncovering corruption that hits close to home."
     },
@@ -58,7 +58,7 @@ export const movies = [
         release_date: "December 16 2022",
         genre: "Sci-Fi, Adventure",
         age_rating: "+12",
-        image: "",
+        image: "./images/guardians.webp",
         where_to_watch: "Disney+",
         description: "Jake Sully and Neytiri face new challenges underwater as they protect Pandora from returning human invaders."
     },
@@ -67,7 +67,7 @@ export const movies = [
         release_date: "May 27 2022",
         genre: "Action, Drama",
         age_rating: "+12",
-        image: "",
+        image: "./images/guardians.webp",
         where_to_watch: "Paramount+",
         description: "Maverick returns as a flight instructor, training the next generation of pilots while confronting his past."
     },
@@ -76,7 +76,7 @@ export const movies = [
         release_date: "March 11 2022",
         genre: "Sci-Fi, Comedy",
         age_rating: "+16",
-        image: "",
+        image: "./images/guardians.webp",
         where_to_watch: "Amazon Prime Video",
         description: "A woman discovers multiple versions of herself across the multiverse in a wildly imaginative, chaotic adventure."
     },
@@ -85,7 +85,7 @@ export const movies = [
         release_date: "December 15 2023",
         genre: "Fantasy, Musical",
         age_rating: "All Ages",
-        image: "",
+        image: "./images/guardians.webp",
         where_to_watch: "Max",
         description: "Explore Willy Wonka’s early life and the whimsical adventures that inspired his iconic chocolate factory."
     },
@@ -94,7 +94,7 @@ export const movies = [
         release_date: "November 22 2023",
         genre: "Drama, History",
         age_rating: "+16",
-        image: "",
+        image: "./images/napoleon.webp",
         where_to_watch: "Apple TV+",
         description: "A dramatic retelling of Napoleon Bonaparte's rise to power and his complex personal and political life."
     },
@@ -103,7 +103,7 @@ export const movies = [
         release_date: "October 27 2023",
         genre: "Comedy, Drama",
         age_rating: "+14",
-        image: "",
+        image: "./images/holdovers.webp",
         where_to_watch: "Peacock",
         description: "A witty and heartwarming story about a teacher and a student stuck at school over the holidays."
     },
@@ -112,7 +112,7 @@ export const movies = [
         release_date: "November 10 2023",
         genre: "Action, Adventure",
         age_rating: "+12",
-        image: "",
+        image: "./images/marvels.webp",
         where_to_watch: "Disney+",
         description: "Superheroes Carol Danvers, Kamala Khan, and Monica Rambeau join forces to face a new cosmic threat."
     },
@@ -121,7 +121,7 @@ export const movies = [
         release_date: "April 26 2024",
         genre: "Drama, Romance",
         age_rating: "+16",
-        image: "",
+        image: "./images/challengers.webp",
         where_to_watch: "Amazon Prime Video",
         description: "Tennis rivals become entangled in a complex web of love, ambition, and personal growth."
     },
@@ -130,7 +130,7 @@ export const movies = [
         release_date: "June 16 2023",
         genre: "Animation, Romance",
         age_rating: "All Ages",
-        image: "",
+        image: "./images/elemental.webp",
         where_to_watch: "Disney+",
         description: "In a city where fire, water, land, and air residents live together, two unlikely elements form a surprising connection."
     },
@@ -139,7 +139,7 @@ export const movies = [
         release_date: "November 24 2021",
         genre: "Animation, Family",
         age_rating: "All Ages",
-        image: "",
+        image: "./images/entanto.webp",
         where_to_watch: "Disney+",
         description: "A magical Colombian family faces challenges and discovers the power of their unique gifts."
     },
@@ -148,7 +148,7 @@ export const movies = [
         release_date: "March 11 2022",
         genre: "Animation, Comedy",
         age_rating: "All Ages",
-        image: "",
+        image: "./images/red.webp",
         where_to_watch: "Disney+",
         description: "A young girl struggles with adolescence and transforms into a giant red panda whenever she gets too excited."
     },
@@ -157,7 +157,7 @@ export const movies = [
         release_date: "April 5 2023",
         genre: "Animation, Adventure",
         age_rating: "All Ages",
-        image: "",
+        image: "./images/mario.webp",
         where_to_watch: "Netflix",
         description: "Mario and Luigi jump into a colorful adventure in the Mushroom Kingdom to save Princess Peach."
     },
@@ -166,7 +166,7 @@ export const movies = [
         release_date: "June 17 2022",
         genre: "Animation, Adventure",
         age_rating: "+10",
-        image: "",
+        image: "./images/lightyear.webp",
         where_to_watch: "Disney+",
         description: "Follow Buzz Lightyear’s origin story as he becomes the legendary Space Ranger."
     },
@@ -175,7 +175,7 @@ export const movies = [
         release_date: "November 22 2023",
         genre: "Animation, Musical",
         age_rating: "All Ages",
-        image: "",
+        image: "./images/wish.webp",
         where_to_watch: "Disney+",
         description: "A young girl’s wish sparks a magical adventure filled with music, hope, and self-discovery."
     }
