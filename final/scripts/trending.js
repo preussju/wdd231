@@ -13,7 +13,7 @@ async function apiFetch() {
         const response = await fetch(url, options);
         if (response.ok) {
             const data = await response.json();
-            // console.log(data); // testing only
+             console.log(data); // testing only
             displayResults(data); // uncomment when ready
         } else {
             throw Error(await response.text());
@@ -36,7 +36,7 @@ function displayResults(data) {
         card.innerHTML = `
       <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.original_title} loading="lazy" height="250" width="200">
       <h3>${movie.original_title}</h3>
-      <p>Release: ${movie.release_date}</p>
+      <p> ${movie.release_date}</p>
     `;
 
         container.appendChild(card);
