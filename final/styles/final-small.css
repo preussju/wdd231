@@ -125,20 +125,20 @@ main h2, main h3{
     background-color: var(--background-color);
 }
 
-#release{
+#release, #trending{
     display: flex;
     gap: 90px;
     text-align: center;
     margin: 10px;
 }
 
-#release section {
+#release section, #trending div {
     background-color: var(--primary-color);
     padding: 10px 30px;
     border-radius: 20px;
 }
 
-#release img{
+#release img, #trending img{
     border-radius: 20px;
 }
 
