@@ -35,7 +35,7 @@ function displayResults(data) {
 
         card.innerHTML = `
       <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.original_title} loading="lazy" height="250" width="200">
-      <h3>${movie.original_title}</h3>
+      <h3>${movie.original_title} - ${movie.original_language}  </h3>
       <p> ${movie.release_date}</p>
     `;
 
