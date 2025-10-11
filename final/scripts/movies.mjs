@@ -49,7 +49,7 @@ export const movies = [
         release_date: "March 4 2022",
         genre: "Action, Crime",
         age_rating: "+14",
-        image: "./ images / guardians.webp",
+        image: "./images/batman.webp",
         where_to_watch: "Max",
         description: "Batman investigates a series of brutal crimes in Gotham City while uncovering corruption that hits close to home."
     },
@@ -58,7 +58,7 @@ export const movies = [
         release_date: "December 16 2022",
         genre: "Sci-Fi, Adventure",
         age_rating: "+12",
-        image: "./images/guardians.webp",
+        image: "./images/avatarWater.webp",
         where_to_watch: "Disney+",
         description: "Jake Sully and Neytiri face new challenges underwater as they protect Pandora from returning human invaders."
     },
@@ -67,7 +67,7 @@ export const movies = [
         release_date: "May 27 2022",
         genre: "Action, Drama",
         age_rating: "+12",
-        image: "./images/guardians.webp",
+        image: "./images/topgun.webp",
         where_to_watch: "Paramount+",
         description: "Maverick returns as a flight instructor, training the next generation of pilots while confronting his past."
     },
@@ -76,7 +76,7 @@ export const movies = [
         release_date: "March 11 2022",
         genre: "Sci-Fi, Comedy",
         age_rating: "+16",
-        image: "./images/guardians.webp",
+        image: "./images/everything.webp",
         where_to_watch: "Amazon Prime Video",
         description: "A woman discovers multiple versions of herself across the multiverse in a wildly imaginative, chaotic adventure."
     },
@@ -85,7 +85,7 @@ export const movies = [
         release_date: "December 15 2023",
         genre: "Fantasy, Musical",
         age_rating: "All Ages",
-        image: "./images/guardians.webp",
+        image: "./images/Wonka.webp",
         where_to_watch: "Max",
         description: "Explore Willy Wonka’s early life and the whimsical adventures that inspired his iconic chocolate factory."
     },

@@ -20,7 +20,7 @@
     <link rel="icon" href="images/favicon-final.ico">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/next-movies.js" defer></script>
+    <script src="scripts/reviews.js" defer></script>
 </head>
 <body>
     <nav id="nav-bar" class="navigation">
@@ -38,7 +38,7 @@
     <main>
         <h1>Review your favorites⭐ or most hated🍅!</h1>
     <div >
-        <form method="get" action="thanks.html" class="designOne">
+        <form method="get" action="thanks.html" class="designOne" id="form">
             <h2>We want your opinion!</h2>
             <label>Nickname* <input type="text" name="first" required title="No need for real name"></label>
             <label>Movie Title* <input type="text" name="movie" required title="The movie you are reviewing"></label>
@@ -54,16 +54,20 @@
             <label><input type="radio" name="rating" value="0" title="1 tomato">🍅</label>
             <h3>Subscribe (optional)</h3>
             <p>receive movies updates through your email!</p>
-            <label>Email <input type="email" name="email" placeholder="john89@gmail.com" title="Your Email" autocomplete="email"></label>
+            <label>Email <input type="email" name="email" id="email" placeholder="john89@gmail.com" title="Your Email" autocomplete="email"></label>
             <input type="hidden" id="formTimestamp" name="formTimestamp" value="">
             <input type="submit" value="Share Review">
         </form>
+    </div>
+    <div>
+        <h2>What others are saying:</h2>
+            <div id="reviews"></div>
     </div>
     </main>
     <footer>
         <div>
             <p>NextReel</p>
-            <a href="attributions.html">Attributions</a>
+            <a href="attributions.html" target="_blank">Attributions</a>
             <p>Vila, Porto Alegre - RS</p>
             <p>+55 51 3333-3333</p>
             <p>nextreel@email.com.br</p>

@@ -8,3 +8,4 @@ document.querySelector('#results').innerHTML = `
 <p><strong> Your email > </strong>${myInfo.get('email')}</p> 
 <p></p>
 <p>${myInfo.get('formTimestamp')}</p> ` 
+

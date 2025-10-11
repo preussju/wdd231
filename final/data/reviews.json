@@ -1,0 +1,145 @@
+{
+"reviews":
+    [
+        {
+            "nickname": "sci_fan99",
+            "movie_title": "Dune: Part Two",
+            "year": 2024,
+            "review": "Epic scale, breathtaking visuals, and deep world-building. A true sci-fi masterpiece that rewards patient viewers.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "emotionqueen",
+            "movie_title": "Inside Out 2",
+            "year": 2024,
+            "review": "Heartfelt and clever! The new emotions bring a fresh spark, though it doesn’t hit quite as hard as the first film.",
+            "rating": "⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "pinkdreamer",
+            "movie_title": "Barbie",
+            "year": 2023,
+            "review": "Smart, funny, and surprisingly deep. A bold mix of comedy and social commentary wrapped in pink perfection.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "spideyversefan",
+            "movie_title": "Spider-Man: Across the Spider-Verse",
+            "year": 2023,
+            "review": "A visually stunning multiverse adventure with an emotional core. The animation and story are next-level.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "spacebandit",
+            "movie_title": "Guardians of the Galaxy Vol. 3",
+            "year": 2023,
+            "review": "An emotional farewell with humor and heart. Rocket’s story hits hard, and the soundtrack delivers as always.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "gothamwatcher",
+            "movie_title": "The Batman",
+            "year": 2022,
+            "review": "Dark, gritty, and detective-focused — exactly what Batman fans wanted. A bit long, but worth it.",
+            "rating": "⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "pandorafan",
+            "movie_title": "Avatar: The Way of Water",
+            "year": 2022,
+            "review": "Visually jaw-dropping, with emotional depth and stunning underwater worlds. A cinematic experience unlike any other.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "jetpilot07",
+            "movie_title": "Top Gun: Maverick",
+            "year": 2022,
+            "review": "A perfect blend of nostalgia and adrenaline. The flying sequences are jaw-dropping — Tom Cruise still delivers!",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "multiverse_mind",
+            "movie_title": "Everything Everywhere All at Once",
+            "year": 2022,
+            "review": "Wildly original, hilarious, and deeply moving. A chaotic masterpiece that proves creativity still thrives in cinema.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "sweettooth",
+            "movie_title": "Wonka",
+            "year": 2023,
+            "review": "Whimsical and full of heart. Timothée Chalamet brings charm and energy to the classic character.",
+            "rating": "⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "historybuff",
+            "movie_title": "Napoleon",
+            "year": 2023,
+            "review": "Visually grand and intense, but drags at times. A solid historical epic with standout performances.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "teacherpat",
+            "movie_title": "The Holdovers",
+            "year": 2023,
+            "review": "A cozy, bittersweet story with wonderful writing and acting. Perfect for a winter night.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "marvelgeek",
+            "movie_title": "The Marvels",
+            "year": 2023,
+            "review": "Fun and lighthearted with great chemistry between the leads, but the plot feels rushed.",
+            "rating": "⭐⭐⭐"
+        },
+        {
+            "nickname": "courtlife",
+            "movie_title": "Challengers",
+            "year": 2024,
+            "review": "Stylish, steamy, and full of tension. Zendaya commands the screen in this layered sports drama.",
+            "rating": "⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "pixarfan",
+            "movie_title": "Elemental",
+            "year": 2023,
+            "review": "Sweet, colorful, and heartfelt. A charming metaphor for diversity and connection.",
+            "rating": "⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "magicmaria",
+            "movie_title": "Encanto",
+            "year": 2021,
+            "review": "Vibrant animation and unforgettable songs! A touching story about family and self-worth.",
+            "rating": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "redpanda_lover",
+            "movie_title": "Turning Red",
+            "year": 2022,
+            "review": "Funny and relatable with a great message about growing up and embracing emotions.",
+            "rating": "⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "player1up",
+            "movie_title": "The Super Mario Bros. Movie",
+            "year": 2023,
+            "review": "A colorful, energetic adaptation that fans will love. Not deep, but tons of fun!",
+            "rating": "⭐⭐⭐⭐"
+        },
+        {
+            "nickname": "buzzfan",
+            "movie_title": "Lightyear",
+            "year": 2022,
+            "review": "Decent space adventure with impressive visuals, but lacks the emotional punch of Toy Story.",
+            "rating": "⭐⭐⭐"
+        },
+        {
+            "nickname": "stardreamer",
+            "movie_title": "Wish",
+            "year": 2023,
+            "review": "Beautiful animation and catchy songs, but the story feels predictable. Still a magical watch for kids.",
+            "rating": "⭐⭐⭐"
+        }
+    ]
+}

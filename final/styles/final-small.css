@@ -132,6 +132,7 @@ main h2, main h3{
     margin: 10px;
 }
 
+
 #release section, #trending div {
     background-color: var(--primary-color);
     padding: 10px 30px;
@@ -351,6 +352,20 @@ input[type=submit] {
     background-color: var(--background-color);
     
 }
+
+/* reviews */
+
+#reviews, #random{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+#reviews section, #random section{
+    padding: 20px;
+    background-color: var(--background-color);
+}
+
 
 /*********** footer ************/
 
