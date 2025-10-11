@@ -199,8 +199,6 @@ main h2, main h3{
     border-radius: 20px;
     text-decoration: none;
     font-weight: 600;
-    font-family: var(--body-font);
-    color: #fff;
     background-color: var(--background-color);
 }
 
@@ -225,6 +223,7 @@ main h2, main h3{
 #cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: 20%;
 }
 
 #cards div{

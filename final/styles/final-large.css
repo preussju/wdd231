@@ -52,6 +52,10 @@
         padding: 20px;
     }
 
+    #cards {
+        margin-left: 0%;
+    }
+
     footer {
         display: flex;
         justify-content: space-around;

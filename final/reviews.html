@@ -38,7 +38,7 @@
     <main>
         <h1>Review your favorites⭐ or most hated🍅!</h1>
     <div >
-        <form method="get" action="thanks.html" class="designOne" id="form">
+        <form method="get" action="thanks.html" class="designOne">
             <h2>We want your opinion!</h2>
             <label>Nickname* <input type="text" name="first" required title="No need for real name"></label>
             <label>Movie Title* <input type="text" name="movie" required title="The movie you are reviewing"></label>
@@ -52,11 +52,14 @@
             <label><input type="radio" name="rating" value="2" title="2 stars"> ⭐⭐</label>
             <label><input type="radio" name="rating" value="1" title="1 star"> ⭐</label>
             <label><input type="radio" name="rating" value="0" title="1 tomato">🍅</label>
+            <input type="hidden" id="formTimestamp" name="formTimestamp" value="">
+            <input type="submit" value="Share Review">
+        </form>
+        <form form method="get" id="form">
             <h3>Subscribe (optional)</h3>
             <p>receive movies updates through your email!</p>
             <label>Email <input type="email" name="email" id="email" placeholder="john89@gmail.com" title="Your Email" autocomplete="email"></label>
-            <input type="hidden" id="formTimestamp" name="formTimestamp" value="">
-            <input type="submit" value="Share Review">
+            <input type="submit" value="Receive Updates">
         </form>
     </div>
     <div>
